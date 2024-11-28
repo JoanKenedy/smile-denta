@@ -1,0 +1,84 @@
+.main-btn {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 3vh;
+  right: 3vw;
+  z-index: 100;
+  gap: 20px;
+}
+
+.main-btn a {
+  font-size: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.main-btn i {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-wa {
+  background-color: #25d366;
+  border-radius: 20px;
+}
+
+.btn-tel {
+  background-color: #616CCE;
+  border-radius: 20px;
+}
+
+
+
+
+@media (min-width: 767px) {
+  .main-btn {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 2vh;
+    right: 1vw;
+    z-index: 100;
+    gap: 20px;
+  }
+
+  .main-btn a {
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .main-btn a:hover {
+    opacity: 0.7;
+  }
+
+  .main-btn i {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-wa {
+    background-color: #25d366;
+    border-radius: 20px;
+  }
+
+  .btn-tel {
+    background-color: #284099;
+    border-radius: 20px;
+  }
+
+
+}

@@ -1,0 +1,1056 @@
+@import url("../basics/basics.css");
+
+@import url("../components/header.css");
+
+@import url("./swiper-pacientes.css");
+
+@import url("../components/botones-flotantes.css");
+@import url("../components/footer.css");
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container-main {
+  width: 100%;
+  height: 100%;
+}
+
+/* Banner */
+
+.main-banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(#f1f7fd, #fff);
+  /* background-color: #f1f7fd; */
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.banner-text {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.banner-text h3 {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.banner-text-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.banner-text-list p {
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #7e8286;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.banner-agendar {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  background-color: #000;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px 3px rgba(0, 0, 0, 0.75);
+}
+
+.banner-img {
+  border-radius: 25px 0 25px 0;
+  width: 100%;
+  box-shadow: 0px 1px 21px 2px rgba(0, 0, 0, 0.75);
+}
+
+.banner-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.banner-card {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  border-radius: 30px 0 30px 0;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.banner-card-title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.banner-card-icon {
+  width: 20%;
+}
+
+.banner-card-time li {
+  list-style-type: none;
+}
+
+/* Intro */
+
+.intro-titles {
+  width: 100%;
+  text-align: center;
+}
+
+.intro-titles h2 {
+  font-size: 40px;
+}
+
+.intro-titles h3 {
+  font-size: 40px;
+  color: #787878;
+}
+
+.main-intro {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-texto h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.intro-texto p {
+  color: #7a7a7a;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.intro-imagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-imagen-fig {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.intro-imagen-fig img {
+  width: 100%;
+}
+
+/* Promos */
+
+.main-promos {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.promos-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #54595f;
+}
+
+.promos-galery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.promos-item {
+  width: 100%;
+}
+
+.promos-img {
+  width: 100%;
+  box-shadow: 0px 1px 11px 2px rgba(0, 0, 0, 0.75);
+}
+
+.promos-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.promos-contact a {
+  width: 50%;
+  text-align: center;
+  background-color: #6ec1e4;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 15px;
+}
+
+/* Agendar */
+.main-agendar {
+  background-image: url("../../assets/img/inicio/agendar-fondo.webp");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 10px;
+}
+
+.agendar-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.agendar-title {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.agendar-text p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.agendar-text a {
+  width: 100%;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.agendar-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.agendar-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.agendar-card h4 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.agendar-card:nth-child(1) {
+  background-image: url("../../assets/img/inicio/agendar-card-fondo.jpeg");
+  background-size: cover;
+  background-color: #fff;
+  position: relative;
+}
+
+.agendar-card:nth-child(1)::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+.agendar-card:nth-child(1) a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.agendar-card h4 {
+  position: relative;
+}
+
+.agendar-card-icon {
+  width: 30%;
+  position: relative;
+}
+
+.agendar-card:nth-child(2) {
+  background-color: #000;
+}
+
+.agendar-card:nth-child(2) a {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Tratamientos */
+
+.main-tratamientos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 10px;
+}
+
+.tratamientos-text-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tratamientos-text-container h2 {
+  font-size: 40px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.tratamientos-text-container span {
+  width: 100%;
+  text-align: center;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.tratamientos-item {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border-radius: 0 30px 0 30px;
+  background-size: cover;
+  background-color: #fff;
+
+  background-position: center center;
+}
+
+.tratamientos-item::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background-color: rgb(0, 0, 0, 0.3);
+  border-radius: 0 30px 0 30px;
+}
+
+.tratamientos-item-text {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  text-shadow: #000 1px 0 10px;
+}
+
+.tratamientos-item-text span:nth-child(1) {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.tratamientos-item-text span:nth-child(2) {
+  font-size: 20px;
+}
+
+.tratamiento-valoracion {
+  background-image: url("../../assets/img/inicio/tratamientos-consulta.jpg");
+}
+
+.tratamiento-protesis {
+  background-image: url("../../assets/img/inicio/tratamientos-protesis.jpg");
+}
+
+.tratamientos-odontopediatria {
+  background-image: url("../../assets/img/inicio/tratamientos-odontopediatria.webp");
+}
+
+.tratamientos-endodoncia {
+  background-image: url("../../assets/img/inicio/tratamientos-endodoncia.jpg");
+}
+
+.tratamientos-periodoncia {
+  background-image: url("../../assets/img/inicio/tratamientos-periodoncia.jpg");
+}
+
+/* Testimonios */
+
+.main-testimonios {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 10px;
+  margin: 40px 0;
+}
+
+.testimonios-fig {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 90px 0 0;
+  background: rgb(78, 78, 78);
+  background: radial-gradient(circle, rgba(78, 78, 78, 1) 0%, rgba(254, 254, 254, 1) 50%, rgba(78, 78, 78, 1) 100%);
+}
+
+.testimonios-fig img {
+  width: 80%;
+}
+
+.testimonios-text-container {
+  width: 100%;
+}
+
+.testimonios-text-container h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.testimonios-text-container h4 {
+  font-size: 40px;
+  text-align: center;
+  color: #54595f;
+}
+
+.testimonios-text-container p {
+  font-size: 17px;
+  padding: 30px 0;
+  color: #7a7a7a;
+  line-height: 25px;
+  text-align: justify;
+}
+
+
+
+/* Dentistas */
+.main-dentistas {
+  width: 100%;
+  padding: 20px;
+}
+
+.main-dentistas h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.dentistas-subtitle {
+  color: #4f5154;
+  margin-bottom: 30px;
+}
+
+.dentistas-cards {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dentistas-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.dentista-card-img {
+  width: 100%;
+  border-radius: 45px 0 45px 0;
+}
+
+.dentista-card-nombre {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dentista-card-cargo {
+  color: #062d92;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.dentista-card-exp {
+  font-size: 15px;
+  color: #52575d;
+}
+
+/* Pasos */
+
+.main-pasos {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  border-radius: 0 40px 0 40px;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(103, 103, 103, 1) 25%, rgba(35, 35, 36, 0.9612219887955182) 73%, rgba(117, 117, 117, 1) 100%);
+}
+
+.pasos-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.pasos-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.pasos-list-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.pasos-list-number {
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pasos-list-item h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.pasos-list-item p {
+  font-size: 18px;
+  text-align: center;
+  color: #becbff;
+}
+
+.pasos-img {
+  width: 100%;
+  box-shadow: 0px 1px 21px 2px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 767px) {
+  /* Banner */
+
+  .main-banner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 120px;
+  }
+
+  .banner-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .banner-card {
+    height: 100%;
+  }
+
+  .banner-card span {
+    text-align: center;
+  }
+
+  .banner-card-icon {
+    align-self: start;
+    width: 30%;
+  }
+
+  .banner-agendar {
+    width: 40%;
+  }
+
+  .banner-text-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-img {
+    width: 90%;
+    border-radius: 120px 0 120px 0;
+  }
+
+  /* Intro */
+
+  .intro-titles h2 {
+    font-size: 50px;
+  }
+
+  .intro-titles h3 {
+    font-size: 50px;
+  }
+
+  .main-intro {
+    padding: 20px 100px;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .intro-texto h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .intro-texto p {
+    margin-bottom: 40px;
+  }
+
+  .intro-imagenes {
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .intro-imagen-fig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  s .intro-imagen-fig img {
+    height: 100%;
+  }
+
+  /* Promos */
+
+  .main-promos {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .promos-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .promos-galery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 70px;
+  }
+
+  .promos-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promos-img {
+    width: 90%;
+  }
+
+  .promos-img-princ {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .promos-contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .promos-contact a {
+    width: 20%;
+  }
+
+  /* Agendar */
+  .main-agendar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    padding: 90px;
+    padding-bottom: 0;
+  }
+
+  .agendar-text {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .agendar-text p {
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .agendar-text a {
+    width: 100%;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+  }
+
+  .agendar-cards {
+    width: 100%;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    margin-top: 40px;
+  }
+
+  .agendar-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .agendar-card h4 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .agendar-card:nth-child(1) {
+    background-image: url("../../assets/img/inicio/agendar-card-fondo.jpeg");
+    background-size: cover;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .agendar-card:nth-child(1)::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background-color: rgb(255, 255, 255, 0.7);
+  }
+
+  .agendar-card:nth-child(1) a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .agendar-card h4 {
+    position: relative;
+  }
+
+  .agendar-card-icon {
+    width: 30%;
+    position: relative;
+  }
+
+  .agendar-card:nth-child(2) {
+    background-color: #000;
+  }
+
+  .agendar-card:nth-child(2) a {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /* Tratamientos */
+
+  .main-tratamientos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+      ". area2 ."
+      "area4 area2 area5"
+      "area6 area7 area5"
+      "area6 area7 area8"
+      ". . area8";
+    gap: 20px;
+    padding: 50px 100px;
+    justify-items: center;
+  }
+
+  .tratamientos-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    grid-area: area4;
+  }
+
+  .tratamientos-text-container h2 {
+    font-size: 50px;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  .tratamientos-text-container span {
+    width: 100%;
+    text-align: justify;
+    color: #7a7a7a;
+    font-size: 22px;
+    padding: 20px;
+  }
+
+  .tratamientos-item {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border-radius: 0 30px 0 30px;
+    background-size: cover;
+    background-color: #fff;
+    background-position: center center;
+  }
+
+  .tratamientos-item::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 0 30px 0 30px;
+  }
+
+  .tratamientos-item-text {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    text-shadow: #000 1px 0 10px;
+  }
+
+  .tratamientos-item-text span:nth-child(1) {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .tratamientos-item-text span:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .tratamiento-valoracion {
+    grid-area: area6;
+  }
+
+  .tratamiento-protesis {
+    grid-area: area2;
+  }
+
+  .tratamientos-odontopediatria {
+    grid-area: area7;
+  }
+
+  .tratamientos-endodoncia {
+    grid-area: area5;
+  }
+
+  .tratamientos-periodoncia {
+    grid-area: area8;
+  }
+
+
+  /* Testimonios */
+
+  .main-testimonios {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 30% 70%;
+    gap: 0;
+    padding: 0;
+    margin: 100px 0;
+  }
+
+  .testimonios-fig {
+    height: 100%;
+    align-items: flex-end;
+  }
+
+  .testimonios-fig img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .testimonios-text-container {
+    width: 100%;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .testimonios-text-container h2 {
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .testimonios-text-container h4 {
+    font-size: 40px;
+    text-align: left
+  }
+
+  .testimonios-text-container p {
+    font-size: 17px;
+    padding: 30px 0;
+    color: #7a7a7a;
+    text-align: justify;
+  }
+
+
+  /* Dentistas */
+  .main-dentistas {
+    width: 100%;
+    padding: 20px 110px;
+  }
+
+  .main-dentistas h2 {
+    text-align: left;
+  }
+
+  .dentistas-subtitle {
+    color: #4f5154;
+    margin-bottom: 30px;
+  }
+
+  .dentistas-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+  }
+
+  .dentistas-card {
+    gap: 15px;
+  }
+
+  .dentista-card-nombre {
+    font-size: 22px;
+  }
+
+  .dentista-card-cargo {
+    font-size: 17px;
+  }
+
+  .dentista-card-exp {
+    font-size: 17px;
+  }
+
+  /* Pasos */
+
+  .main-pasos {
+    width: 80%;
+    padding: 80px 100px;
+  }
+
+  .pasos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .pasos-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .pasos-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+  }
+
+  .pasos-list-item {
+    list-style-type: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .pasos-list-item h4 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .pasos-list-item p {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+
+}
